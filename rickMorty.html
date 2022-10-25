@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Lovers Rick and Morty</title>
+  <link href="https://file.myfontastic.com/eStkfdYmFUFyU4sM2fYSZS/icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Trispace:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="img/logo.png">
+  </header>
+  <section class="filtro">
+
+    <article class="grupo-filtrar-ordenar">
+      <nav class="menu">
+        <ul class="menu_filtros">
+          <span class="icon-filter "></span>
+          <li class="list-item" >Filtrar</li>
+        </ul>
+        <ul class="menu_setting inactive">
+          <li class="menu_inside" id="todos">Todos</li>
+          <li class="menu_inside" id="hombre"> Hombre</li>
+          <li class="menu_inside" id="mujer">Mujer</li>
+          <li class="menu_inside" id="vivos">Vivos</li>
+          <li class="menu_inside" id="muertos">Muertos</li>
+        </ul>
+      </nav>
+      <div class="ordenar">
+        <select  class="orden">
+          <option  value="Ordenar" selected="return-true" disabled>Ordenar por</option>
+          <option  value="1"> A-Z</option>
+          <option value="2">Z-A</option>
+        </select>
+      </div>
+    </article>
+    <div class="grafica">
+      <button class="btnGrafica">Gráfica de personajes</button>
+    </div>
+
+
+    <div class="btn-busqueda">
+      <input class="busqueda" placeholder="Busca a tu personaje">
+      <span class="icon-search"></span>
+    </div>
+
+  </section>
+
+  <section class="cards"></section>
+  <section class="graficos">
+    <canvas id="myChart"></canvas>
+  </section>
+
+ <footer class="footer-pg2">
+  <p>Proyecto Data Lovers Angelica & Natalia</p>
+ </footer>
+  <script src="main.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+</body>
+</html>
