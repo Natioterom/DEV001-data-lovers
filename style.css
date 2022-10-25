@@ -356,11 +356,12 @@ a {
 
   .orden {
     border-style: none;
-    padding: 8px;
+    padding: 12px;
     border-radius: 6px;
     border-color: var(--colorSecondary);
     margin-left: 6px;
     background-color: var(--colorSecondary);
+    width:120px;
   }
 
   /* -------- MENU ---------*/
