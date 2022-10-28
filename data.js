@@ -26,7 +26,7 @@ export const getMale=(data)=>{
 }
 //Filtrar por gender Unknow
 export const getUnknow=(data)=>{
-  const arrayUnknow=getData(data).filter(e=>e.gender=="unknown");
+  const arrayUnknow=getData(data).filter(e => e.gender == "unknown");
   return arrayUnknow
 }
 //Ordenar los personajes de a A-Z sin filtro
@@ -47,5 +47,6 @@ export const descendente=(data)=>{
  }
  )
  //console.log(Array.isArray(descendente));
- return b}
+ return b
+}
 

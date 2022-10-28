@@ -21,7 +21,12 @@ select {
   font-family: 'Trispace', sans-serif;
 
 }
-
+.visionUno{
+  display:block;
+}
+.visionDos{
+  display:none;
+}
 ul {
   list-style: none;
 }
